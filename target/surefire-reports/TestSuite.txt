@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 100.882 sec <<< FAILURE!
+matchSum(com.RahulShetty.tests.RahulShettySection3Test)  Time elapsed: 3.375 sec  <<< FAILURE!
+java.lang.AssertionError: Sum doesn't match since Total calculated ->296 and expected is ->2968
+	at org.testng.Assert.fail(Assert.java:110)
+	at com.RahulShetty.pages.componentspage.Section3.getSumAndMatch(Section3.java:89)
+	at com.RahulShetty.tests.RahulShettySection3Test.matchSum(RahulShettySection3Test.java:49)
+

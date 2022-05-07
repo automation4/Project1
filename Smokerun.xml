@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Rahul Shetty" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="Utilities.TestListeners"></listener>
+    </listeners>
+    <parameter name="test" value="tesy"></parameter>
+    <test name = "Section1-smoke" >
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.RahulShetty.tests.RahulShettySection1Test"/>
+        </classes>
+    </test>
+    <test name = "Section2-smoke" >
+        <classes>
+            <class name = "com.RahulShetty.tests.RahulShettySection2Test"/>
+        </classes>
+    </test>
+    <test name = "Section3-smoke" >
+        <classes>
+            <class name = "com.RahulShetty.tests.RahulShettySection3Test"/>
+        </classes>
+    </test>
+    <test name = "Section4-smoke" >
+        <classes>
+            <class name = "com.RahulShetty.tests.RahulShettySection4Test"/>
+        </classes>
+    </test>
+    <test name = "Section5-smoke" >
+        <classes>
+            <class name = "com.RahulShetty.tests.RahulShettySection5Test"/>
+        </classes>
+    </test>
+    <test name = "Section6-smoke" >
+        <classes>
+            <class name = "com.RahulShetty.tests.RahulShettySection6Test"/>
+        </classes>
+    </test>
+</suite>

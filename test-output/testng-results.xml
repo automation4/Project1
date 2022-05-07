@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Rahul Shetty" duration-ms="10427" started-at="2022-04-14T21:50:32 IST" finished-at="2022-04-14T21:50:42 IST">
+    <groups>
+      <group name="regression">
+        <method signature="RahulShettySection1Test.autoSuggestion()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="autoSuggestion" class="com.RahulShetty.tests.RahulShettySection1Test"/>
+        <method signature="RahulShettySection1Test.clickChekbox()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="clickChekbox" class="com.RahulShetty.tests.RahulShettySection1Test"/>
+        <method signature="RahulShettySection1Test.goTORahulShettySection5()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="goTORahulShettySection5" class="com.RahulShetty.tests.RahulShettySection1Test"/>
+        <method signature="RahulShettySection1Test.selectDropdown()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="selectDropdown" class="com.RahulShetty.tests.RahulShettySection1Test"/>
+        <method signature="RahulShettySection2Test.switchTOAlert()[pri:0, instance:com.RahulShetty.tests.RahulShettySection2Test@17695df3]" name="switchTOAlert" class="com.RahulShetty.tests.RahulShettySection2Test"/>
+        <method signature="RahulShettySection2Test.switchTOFrame()[pri:0, instance:com.RahulShetty.tests.RahulShettySection2Test@17695df3]" name="switchTOFrame" class="com.RahulShetty.tests.RahulShettySection2Test"/>
+        <method signature="RahulShettySection2Test.switchTOTabs()[pri:0, instance:com.RahulShetty.tests.RahulShettySection2Test@17695df3]" name="switchTOTabs" class="com.RahulShetty.tests.RahulShettySection2Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="RahulShettySection1Test.selectDropdown()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="selectDropdown" class="com.RahulShetty.tests.RahulShettySection1Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Section2-Regression" duration-ms="9865" started-at="2022-04-14T21:50:32 IST" finished-at="2022-04-14T21:50:42 IST">
+      <class name="com.RahulShetty.tests.RahulShettySection2Test">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.RahulShetty.tests.RahulShettySection2Test@17695df3]" name="initializeDriver" is-config="true" duration-ms="5429" started-at="2022-04-14T21:50:32 IST" finished-at="2022-04-14T21:50:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="switchTOAlert()[pri:0, instance:com.RahulShetty.tests.RahulShettySection2Test@17695df3]" name="switchTOAlert" duration-ms="232" started-at="2022-04-14T21:50:37 IST" finished-at="2022-04-14T21:50:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTOAlert -->
+        <test-method status="PASS" signature="switchTOFrame()[pri:0, instance:com.RahulShetty.tests.RahulShettySection2Test@17695df3]" name="switchTOFrame" duration-ms="3215" started-at="2022-04-14T21:50:38 IST" finished-at="2022-04-14T21:50:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTOFrame -->
+        <test-method status="PASS" signature="switchTOTabs()[pri:0, instance:com.RahulShetty.tests.RahulShettySection2Test@17695df3]" name="switchTOTabs" duration-ms="191" started-at="2022-04-14T21:50:41 IST" finished-at="2022-04-14T21:50:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTOTabs -->
+        <test-method status="PASS" signature="ExitBrowser()[pri:0, instance:com.RahulShetty.tests.RahulShettySection2Test@17695df3]" name="ExitBrowser" is-config="true" duration-ms="734" started-at="2022-04-14T21:50:41 IST" finished-at="2022-04-14T21:50:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitBrowser -->
+      </class> <!-- com.RahulShetty.tests.RahulShettySection2Test -->
+    </test> <!-- Section2-Regression -->
+    <test name="Section1-Regression" duration-ms="10427" started-at="2022-04-14T21:50:32 IST" finished-at="2022-04-14T21:50:42 IST">
+      <class name="com.RahulShetty.tests.RahulShettySection1Test">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="initializeDriver" is-config="true" duration-ms="6014" started-at="2022-04-14T21:50:32 IST" finished-at="2022-04-14T21:50:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="autoSuggestion()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="autoSuggestion" duration-ms="141" started-at="2022-04-14T21:50:38 IST" finished-at="2022-04-14T21:50:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoSuggestion -->
+        <test-method status="PASS" signature="clickChekbox()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="clickChekbox" duration-ms="269" started-at="2022-04-14T21:50:38 IST" finished-at="2022-04-14T21:50:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickChekbox -->
+        <test-method status="PASS" signature="goTORahulShettySection5()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="goTORahulShettySection5" duration-ms="3215" started-at="2022-04-14T21:50:38 IST" finished-at="2022-04-14T21:50:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goTORahulShettySection5 -->
+        <test-method status="PASS" signature="selectDropdown()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="selectDropdown" duration-ms="142" started-at="2022-04-14T21:50:42 IST" finished-at="2022-04-14T21:50:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropdown -->
+        <test-method status="PASS" signature="ExitBrowser()[pri:0, instance:com.RahulShetty.tests.RahulShettySection1Test@35a50a4c]" name="ExitBrowser" is-config="true" duration-ms="625" started-at="2022-04-14T21:50:42 IST" finished-at="2022-04-14T21:50:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitBrowser -->
+      </class> <!-- com.RahulShetty.tests.RahulShettySection1Test -->
+    </test> <!-- Section1-Regression -->
+  </suite> <!-- Rahul Shetty -->
+</testng-results>

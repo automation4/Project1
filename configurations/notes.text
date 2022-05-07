@@ -1,0 +1,13 @@
+Waana add date, ok go by any way
+    way 1 :
+        Date d = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss");
+        String formattedDate = sdf.format(d);
+
+    way 2 :
+        Calendar c = Calendar.getInstance();
+        Date formattedDate = c.getTime();
+ ...........................................
+ testoutput folder not generating ?
+ Run > Edit config > Listener tab > check "use default reporters"
+ ..........................................
